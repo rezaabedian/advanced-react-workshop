@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
 import withMouse from "./withMouse";
 
 class App extends Component {
