@@ -1,5 +1,5 @@
 import React from "react";
 import { render } from "react-dom";
-import FetchApp from "./FetchApp";
+import App from "./render-props/App";
 
-render(<FetchApp />, document.getElementById("root"));
+render(<App />, document.getElementById("root"));

@@ -3,7 +3,8 @@ import fetchData from "./fetchData";
 
 const FetchApp = ({loading, data}) => (
     <div>
-        <div style={{fontFamily: "'Fira Sans', sans-serif"}}>Your data is {loading ? 'still loading' : JSON.stringify(data)}</div>
+        <div style={{fontFamily: "'Fira Sans', sans-serif"}}>Your data
+            is {loading ? 'still loading' : JSON.stringify(data)}</div>
     </div>
 );
 
